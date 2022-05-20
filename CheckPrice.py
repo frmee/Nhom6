@@ -40,8 +40,8 @@ def notify(symbol,frequency):
         print(notification)
         print('\n')
         send_discord(url,notification)
-        # chỉ thông báo mỗi 1 phút 1 lần
-        time.sleep(60)
+        # chỉ thông báo mỗi 2 phút 1 lần
+        time.sleep(120)
 
 notify(symbols, frequency)
        
